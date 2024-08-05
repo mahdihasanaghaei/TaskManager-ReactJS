@@ -31,17 +31,10 @@ margin-top: 1rem;
 `)
 
 const StyledTextField = memo(styled(TextField)`
-&.MuiOutlinedInput-root {
+.MuiOutlinedInput-root {
+    margin: 0.8rem 0rem;
     border-radius: 5px;
-    margin: .4rem 0rem;
-    font-family: 'Poppins', sans-serif
-  }
-&.MuiInputLabel-root {
-    font-family: 'Poppins', sans-serif
-  }
-&.MuiFormHelperText-root {
-    font-family: 'Poppins', sans-serif
-  }
+}
 `)
 
 const ModalTitle = memo(styled.h2`

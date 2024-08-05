@@ -10,7 +10,7 @@ const TaskManager = () => {
     const [openModal, setOpenModal] = useState(false)
     const [allTask, setAllTask] = useState<formikModel[]>([])
     const [selectedItems, setselectedItems] = useState<formikModel>()
-    const [priority, setPriority] = useState('all')
+    const [priority, setPriority] = useState('All')
 
     const handleMode = (e: string) => {
         setMode(e)
